@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans:wght@300;400&family=Source+Code+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+   background-color: rgb(199, 215, 228);
+    width: 434px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+
+}
+
+.sidebar nav {
+    padding: 22px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 21px;
+    padding-top: 40px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+
+}
+.main {
+   
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+.infocontainer{
+   
+    height: 50vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nanum Myeongjo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
+.hello{
+font-size: 70px;
+}
+.name{
+font-size: 60px;
+font-weight: bold;
+}
+.about{
+font-size: 30px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+padding: 9px 14px ;
+border-radius: 22px ;
+border-color: blue;
+color: rgb(254, 254, 254);
+background-color: blue;
+font-size: 21px;
+margin: 0 3 px;
+cursor: pointer;
+}
+.btn-sm{
+font-size: 15px;
+margin-top: 12px;
+padding: 10px 19px;
+}
+.btn:hover{
+background-color: white;
+color :black ;
+border-color: black;
+}
+.contactform h1{
+    
+    text-align: center;
+}
+.contactform{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 34px;
+     padding-top: 144px;
+     
+}
+.contactform div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input {
+   width: 16vw;
+   border-radius:  5px;
+   margin: 6px 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 9px;
+    color: red;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#cmessage{
+    padding-top: 3px;
+    padding-left: 5px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    margin :6px 0;
+    border-width: 2px;
+}
+.intro h1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+margin: 12px;
+}
+.intro p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+margin: 12px;
+}
+.skillcontainer{
+    font-weight: 800;
+    padding: 12px;
+}
+.skillitem{
+
+    /*display: flex;*/
+    align-items: center;
+}
+.skill{
+    margin: 10px;
+    
+    width: 265px;
+    height: 6px;
+    background-color: red;
+
+}
+.hundered{
+    background-color: rgb(70, 247, 70);
+    width: 265px;
+}
+.nine{
+    background-color: greenyellow;
+    width:215px;
+}
+.fifty{
+    background-color: yellow;
+    width: 175px;
+}
+.t5{
+    width: 100px;
+}
