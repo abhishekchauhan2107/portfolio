@@ -7,11 +7,12 @@
 
 .sidebar {
     display: flex;
-   background-color: rgb(255, 127, 80);
+   background-color: rgb(176, 224, 230);
     width: 434px;
     font-family: 'Nanum Myeongjo', serif;
     font-family: 'Open Sans', sans-serif;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 
 }
 
